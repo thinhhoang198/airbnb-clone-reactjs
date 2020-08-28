@@ -1,0 +1,51 @@
+.banner {
+  height: 60vh;
+  position: relative;
+  background: url("https://media.cntraveler.com/photos/5ea354e75e5dc70008d054b9/16:9/w_2560%2Cc_limit/24912891-australia-3.jpg")
+    center center;
+  background-size: cover;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 50px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  color: #ff7779;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+
+.banner__info > h5 {
+  margin-top: 20px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  border: none;
+  color: #ff7779 !important;
+  font-weight: 900 !important;
+  background-color: white !important;
+  text-transform: inherit !important;
+  width: 100%;
+}
